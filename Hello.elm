@@ -20,3 +20,12 @@ divide : Float -> Float -> Float
 divide x y =
     x / y
 
+addOne : Int -> Int
+
+addOne x =
+  x + 1
+
+switch : ( a, b ) -> ( b, a )
+
+switch ( x, y ) =
+  ( y, x )
